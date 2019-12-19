@@ -1,0 +1,49 @@
+{
+    "name": "CarTrawler",
+    "description": "CarTrawler is the world's leading B2B technology platform, connecting customers and travel companies to ground based transport solutions around the globe.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28467-www-cartrawler-com.jpg",
+    "tags": [
+        "api not found",
+        "have api",
+        "marketplaces"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cartrawler\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "CarTrawler",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28467-www-cartrawler-com.jpg",
+            "humanURL": "https:\/\/www.cartrawler.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/cartrawler-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/cartrawler-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/cartrawler"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/CarTrawler"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.cartrawler.com"
+        }
+    ]
+}
