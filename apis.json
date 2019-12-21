@@ -7,8 +7,8 @@
         "have api",
         "marketplaces"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-20",
+    "modified": "2019-12-20",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cartrawler\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -22,17 +22,17 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/cartrawler-openapi.json"
-                },
-                {
-                    "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/cartrawler-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cartrawler\/master\/cartrawler-openapi.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Crunchbase",
             "url": "https:\/\/crunchbase.com\/organization\/cartrawler"
