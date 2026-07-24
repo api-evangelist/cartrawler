@@ -1,8 +1,28 @@
 aid: cartrawler
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cartrawler.png
 name: Cartrawler
-description: Cartrawler is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  CarTrawler is a leading B2B technology provider of car rental, ground transport and insurtech
+  solutions to the global travel industry. Through its Connect Platform it links airlines, online
+  travel agencies and travel companies to a worldwide marketplace of car rental suppliers, private
+  transfers and ride-hailing partners, displaying millions of cars daily and processing billions of
+  queries. CarTrawler serves 70+ airlines and 250+ travel companies worldwide (including American
+  Airlines, Ryanair, easyJet, Qantas, Southwest, eDreamsODIGEO and Uber), differentiating through
+  proprietary technology, real-time machine-learning pricing and personalized retailing. Integration
+  is delivered through partner and supplier programs rather than a public self-service developer
+  portal; this profile was surfaced as an Insight Partners portfolio company and enriched by the
+  API Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/cartrawler/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Travel
+- Car Rental
+- Mobility
+- Ground Transport
+- Insurtech
+- Travel Technology
+- B2B
+- Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +52,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.cartrawler.com/
+- type: About
+  url: https://corporate.cartrawler.com/en-gb/about-us/
+- type: Support
+  url: https://corporate.cartrawler.com/en-gb/contact-us/
+- type: Partners
+  url: https://corporate.cartrawler.com/en-gb/who-we-work-with/partner-with-us/
+- type: Blog
+  url: https://corporate.cartrawler.com/en-gb/news-resources/news/
+- type: Careers
+  url: https://corporate.cartrawler.com/en-gb/careers/working-at-cartrawler/
+- type: TermsOfService
+  url: https://corporate.cartrawler.com/en-gb/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://corporate.cartrawler.com/en-gb/privacy-policy/
+- type: DomainSecurity
+  url: security/cartrawler-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
